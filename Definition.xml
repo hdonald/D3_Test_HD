@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="D3_Sunburst" Description="D3 Sunburst Chart extension object" PageHeight="50000">
+   <Dimension Label="Dimension 1" Initial="Path" TargetName="Dimension Name" />
+   <Measurement Label="Measure 1" Initial="Count(Path)" TargetName="Expression 1" />
+   <Measurement Label="Measure 2" Initial="" TargetName="Expression 2"/>
+   
+   <Initiate Name="Chart.Dimension.0.Sort.ByAscii.Use" Value="1" />
+	<Initiate Name="Chart.Title" value="D3 Sunburst Chart" />
+	<Initiate Name="Caption.Text" Value="D3 Sunburst Chart" />
+  </ExtensionObject>
